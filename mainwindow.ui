@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>505</width>
-    <height>200</height>
+    <height>190</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -124,6 +124,13 @@
          </layout>
         </item>
         <item>
+         <widget class="QCheckBox" name="faultBox">
+          <property name="text">
+           <string>Неисправность детектора</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
            <enum>Qt::Vertical</enum>
@@ -135,13 +142,6 @@
            </size>
           </property>
          </spacer>
-        </item>
-        <item>
-         <widget class="QCheckBox" name="faultBox">
-          <property name="text">
-           <string>Неисправность детектора</string>
-          </property>
-         </widget>
         </item>
        </layout>
       </item>
@@ -206,7 +206,7 @@
      <x>0</x>
      <y>0</y>
      <width>505</width>
-     <height>18</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
